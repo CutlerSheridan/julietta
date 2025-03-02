@@ -19,6 +19,9 @@ do {
     }
     dropdownSections[sectionCounter] = [headingText];
     strongElement.remove();
+    // Get rid of white space in text leftover from removing <strong> elements
+    targetElements[iterator].textContent =
+      targetElements[iterator].textContent.trim();
   }
   // Add nodes to section as long as they're not empty
   if (targetElements[iterator].textContent.length > 0) {
@@ -27,11 +30,6 @@ do {
 
   iterator++;
 } while (iterator < targetElements.length);
-
-// Get rid of white space in text leftover from removing <strong> elements
-for (let i = 0; i < targetElements.length; i++) {
-  targetElements[i].textContent = targetElements[i].textContent.trim();
-}
 
 // Create dropdown heading + content for each dropdown section
 for (let i = 0; i <= sectionCounter; i++) {

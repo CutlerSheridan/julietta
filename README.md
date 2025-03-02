@@ -16,6 +16,10 @@ Site is shopjulietta.com. Client wanted the footer's email form in a certain pla
 
 #### CHANGELOG
 
+_0.0.1_
+
+- fix where trimming white space fucked up bulleted lists
+
 _0.0.0_
 
 - Initial commit
