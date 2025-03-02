@@ -1,0 +1,32 @@
+/* Below is for placement of footer email signup */
+footer {
+  width: 100% !important;
+}
+footer.footer > .footer__content-top.page-width {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
+}
+.footer__content-top > div {
+  width: fit-content;
+}
+.footer-block--newsletter {
+  margin: 45px 0;
+}
+.footer-block--newsletter .footer-block__heading {
+  position: relative;
+  max-width: 45ch;
+  text-align: left;
+}
+.footer-block--newsletter .footer-block__heading::before {
+  content: 'BE IN THE KNOW';
+  position: absolute;
+  top: -45px;
+  left: 0px;
+  font-size: 14px;
+}
+footer .field {
+  border: 1px solid rgb(var(--color-foreground));
+}

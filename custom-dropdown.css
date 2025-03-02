@@ -1,0 +1,26 @@
+.dropdown-heading {
+  margin: 0 12px;
+  padding: 14px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-top: 1px solid rgb(var(--color-foreground), 0.3);
+}
+.dropdown-content {
+  margin: -8px 12px 0;
+  padding-top: 0;
+  padding-bottom: 14px;
+  max-height: 500px;
+  transition: all 0.2s ease-in-out;
+}
+.dropdown-content > *:first-child {
+  margin-top: 0;
+}
+.dropdown-content > *:last-child {
+  margin-bottom: 0;
+}
+.dropdown-content-hidden {
+  padding-bottom: 0;
+  max-height: 0;
+  overflow: hidden;
+  color: transparent;
+}
