@@ -1,6 +1,17 @@
 /* Below is for placement of footer email signup */
 footer {
+  margin-top: -50px !important;
+  padding-top: 0px !important;
   width: 100% !important;
+}
+@media only screen and (min-width: 768px) {
+  .multicolumn.color-scheme-088acbdb-3118-4205-9efd-96db92f68a16 {
+    padding-bottom: 17px;
+  }
+  footer {
+    margin-top: 0 !important;
+    padding-top: 93px !important;
+  }
 }
 footer.footer > .footer__content-top.page-width {
   display: flex;
@@ -13,7 +24,12 @@ footer.footer > .footer__content-top.page-width {
   width: fit-content;
 }
 .footer-block--newsletter {
-  margin: 45px 0;
+  margin: 45px 0 70px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-block--newsletter {
+    margin: 45px 0;
+  }
 }
 .footer-block--newsletter .footer-block__heading {
   position: relative;

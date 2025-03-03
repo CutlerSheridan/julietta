@@ -16,6 +16,13 @@ Site is shopjulietta.com. Client wanted the footer's email form in a certain pla
 
 #### CHANGELOG
 
+_0.1.0_
+
+- make text input fields black
+- align shopping bag icon to other navbar elements on wide screens
+- center email section between upper section and the rest of footer on mobile
+- adjust footer placement
+
 _0.0.1_
 
 - fix where trimming white space fucked up bulleted lists

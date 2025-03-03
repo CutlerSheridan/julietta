@@ -1,0 +1,18 @@
+input.field__input {
+  color: rgb(var(--color-foreground));
+}
+
+/* This moves the shopping bag icon up in the widescreen header so it aligns better with the text */
+@media only screen and (min-width: 750px) {
+  .bi-handbag {
+    margin-top: -3px;
+  }
+  .bi-handbag-fill {
+    margin-top: -6px;
+  }
+}
+
+/* Make the related products grid on product pages farther from the footer */
+.related-products {
+  padding-bottom: 53px !important;
+}
